@@ -1,0 +1,56 @@
+ 
+ body{
+    background-color: #d1d1cb;
+} 
+.card-header{
+    background-color: #1d291f;
+    color: whitesmoke;
+}
+
+.card-body{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+.cardContainer{
+    width: 250px;
+    height: 150px;
+    display: flex;
+    /* background-color: red; */
+    border-radius: 10px;
+    box-shadow: 0 15px 60px rgba(0,0,0,0.3);
+    background: linear-gradient(100deg, white 40%, black 0%);
+}
+
+.centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftSide{
+    width: 40%;
+}
+
+.rightSide{
+    width: 60%;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.rightContent{
+    display: flex;
+    font-size: 10px;
+}
+
+.fontAwesome i{
+    width: 15px;
+    height: 15px;
+    border: 1px solid #0072e1;
+    border-radius: 50%;
+    background-color: #0072e1;
+    margin-right: 10px;
+}
